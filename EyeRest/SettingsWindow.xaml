@@ -31,14 +31,14 @@
             <ColumnDefinition Width="55*"/>
             <ColumnDefinition Width="45*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0">Activate program after:</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0">Rest time duration:</TextBlock>
         <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
             <TextBox Text="{Binding WorkTimeMinutes, Mode=TwoWay}" />
             <TextBlock>Minutes</TextBlock>
             <TextBox Text="{Binding WorkTimeSeconds, Mode=TwoWay}" />
             <TextBlock>Seconds</TextBlock>
         </StackPanel>
-        <TextBlock Grid.Row="1" Grid.Column="0">Rest time duration:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0">Rest interval:</TextBlock>
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
             <TextBox Text="{Binding RestTimeMinutes, Mode=TwoWay}" />
             <TextBlock>Minutes</TextBlock>
