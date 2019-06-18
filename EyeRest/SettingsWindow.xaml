@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
         Icon="Images/MainIcon.ico"
-        Title='Настройки программы "Отдых для глаз"' Height="200" Width="500">
+        Title='Settings "Rest for eyes"' Height="200" Width="500">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="5"/>
@@ -31,23 +31,23 @@
             <ColumnDefinition Width="55*"/>
             <ColumnDefinition Width="45*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0">Время между перерывами для отдыха:</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0">Activate program after:</TextBlock>
         <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
             <TextBox Text="{Binding WorkTimeMinutes, Mode=TwoWay}" />
-            <TextBlock>минут</TextBlock>
+            <TextBlock>Minutes</TextBlock>
             <TextBox Text="{Binding WorkTimeSeconds, Mode=TwoWay}" />
-            <TextBlock>секунд</TextBlock>
+            <TextBlock>Seconds</TextBlock>
         </StackPanel>
-        <TextBlock Grid.Row="1" Grid.Column="0">Длительность перерыва для отдыха:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0">Rest time duration:</TextBlock>
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
             <TextBox Text="{Binding RestTimeMinutes, Mode=TwoWay}" />
-            <TextBlock>минут</TextBlock>
+            <TextBlock>Minutes</TextBlock>
             <TextBox Text="{Binding RestTimeSeconds, Mode=TwoWay}" />
-            <TextBlock>секунд</TextBlock>
+            <TextBlock>Seconds</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" HorizontalAlignment="Right">
-            <Button Command="{Binding OkCommand}">Ок</Button>
-            <Button Command="{Binding CancelCommand}">Отмена</Button>
+            <Button Command="{Binding OkCommand}">OK</Button>
+            <Button Command="{Binding CancelCommand}">Cancel</Button>
         </StackPanel>
     </Grid>
 </Window>

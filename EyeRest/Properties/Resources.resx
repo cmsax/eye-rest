@@ -125,21 +125,21 @@
     <value>..\Images\MainIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TrayIconTooltipText" xml:space="preserve">
-    <value>Эта программа через регулярные интервалы времени напоминает вам о необходимости дать глазам отдых</value>
+    <value>This mini program reminds you to rest your eyes</value>
   </data>
   <data name="TrayIconTooltipTitle" xml:space="preserve">
-    <value>Отдых для глаз</value>
+    <value>Rest for eyes</value>
   </data>
   <data name="TrayMenuExitText" xml:space="preserve">
-    <value>Закрыть программу</value>
+    <value>Quit</value>
   </data>
   <data name="TrayMenuResume" xml:space="preserve">
-    <value>Возобновить</value>
+    <value>Restart</value>
   </data>
   <data name="TrayMenuShowSettings" xml:space="preserve">
-    <value>Настройки...</value>
+    <value>Settings...</value>
   </data>
   <data name="TrayMenuSuspend" xml:space="preserve">
-    <value>Приостановить</value>
+    <value>Pause</value>
   </data>
 </root>

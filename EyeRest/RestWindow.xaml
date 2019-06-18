@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Topmost="True"
         Icon="Images/MainIcon.ico"
-        Title="Отдохните от работы" Height="150" Width="400" KeyDown="OnKeyDown">
+        Title="Take a rest！" Height="150" Width="400" KeyDown="OnKeyDown">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -14,11 +14,11 @@
         </ProgressBar>
         <StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
             <TextBlock Margin="2" Text="{Binding SecondsToEnd}" />
-            <TextBlock Margin="2">секунд до конца</TextBlock>
+            <TextBlock Margin="2">seconds left</TextBlock>
         </StackPanel>
         <Button Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"
                 Width="200" Height="30" Margin="10" Command="{Binding CancelCommand}">
-            Отмена
+            Dismiss
         </Button>
     </Grid>
 </Window>
